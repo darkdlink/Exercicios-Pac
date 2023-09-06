@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variaveis para armazenar o nome e a idade da criança
+    char nome[50];
+    int idade;
+
+    // Peça a criança que digite seu nome
+    printf("Ola Qual e o seu nome? ");
+    scanf("%c", nome);
+
+    // Peça a criança que digite sua idade
+    printf("E quantos anos voce tem, %s? ", nome);
+    scanf("%d", &idade);
+
+    // Exiba uma mensagem
+    printf("Ola, %s voce tem %d anos \n", nome, idade);
+
+    return 0;
+}
